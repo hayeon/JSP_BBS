@@ -1,0 +1,14 @@
+2021-07-07 22:26:43,250 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-07-07 22:58:45,877 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-07-07 23:24:49,608 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-07-08 23:54:13,619 [Worker-1: Remove Repositories] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[E:\JSP\notice_board\BBS\.git]
+2021-07-09 00:31:22,879 [Worker-1: Remove Repositories] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[E:\JSP\notice_board\Servers\.git]
+2021-07-09 00:51:31,004 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-07-14 16:52:47,210 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-07-14 21:15:16,644 [Worker-6: Remove Repositories] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[E:\JSP\notice_board\BBS\.git]
+2021-07-14 21:16:44,708 [Worker-14: Cloning from https://github.com/hayeon/JSP_BBS.git] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[E:\JSP\notice_board\Servers\.git]
+2021-07-14 21:40:30,653 [Framework stop - Equinox Container: 358d032c-bac8-418a-bd0e-c98f6f5097e5] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\Users\hayun\git\JSP_BBS\.git]
+2021-07-14 21:42:14,823 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-07-14 21:46:57,181 [Git Repository Closer] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\Users\hayun\git\JSP_BBS\.git]
+2021-07-14 21:47:51,359 [main] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[E:\JSP\notice_board\.git]
+2021-07-16 21:41:42,177 [main] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[E:\JSP\notice_board\Servers\.git]

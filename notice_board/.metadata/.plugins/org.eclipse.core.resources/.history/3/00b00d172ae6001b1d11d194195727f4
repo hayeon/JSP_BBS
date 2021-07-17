@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device.width", initial-scale="1"> 
+//부트스트랩은 사이즈가 디바이스마다 깔쌈하게 크기가 변경되게 도와줌
+<title>JSP 웹 사이트</title>
+</head>
+<body>
+<script>
+	location.href = 'login.jsp'; //login.jsp 파일로 이동
+</script>
+</body>
+</html>
