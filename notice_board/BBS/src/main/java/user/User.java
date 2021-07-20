@@ -2,20 +2,20 @@ package user;
 
 public class User {
 	
-	private String userId;
+	private String userID;
 	private String userPassword;
 	private String userName;
 	private String userGender;
 	private String userEmail;
 	
 	
-	public String getUserId() {
-		return userId;
+	public String getUserID() {
+		return userID;
 	}
 
 
-	public void setUserId(String userId) {
-		this.userId = userId;
+	public void setUserID(String userID) {
+		this.userID = userID;
 	}
 
 

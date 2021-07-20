@@ -24,6 +24,7 @@
 				<span class="icon-bar"></span> <span class="icon-bar"></span> <span
 					class="icon-bar"></span>
 			</button>
+			
 			<a class="navbar-brand" href="main.jsp"> 웹 사이트</a>
 		</div>
 
@@ -42,7 +43,7 @@
 				<li class="dropdown"><a href="#" class="dropdown-toggle"
 					data-toggle="dropdown" role="buttton" aria-haspopup="true"
 					aria-expanded="false">접속하기 <span class="caret"></span></a>
-					<ul class="dropdwon-menu">
+					<ul class="dropdowon-menu">
 						<li class="active"><a href="login.jsp">로그인</a></li>
 						<!-- 액티브는 단 한개의 홈페이지에만 선택된 홈페이지 의미 -->
 						<li><a href="login.jsp"></a>회원가입</li>
@@ -58,16 +59,18 @@
 		<div class="col-lg-4"></div>
 		<div class="col-lg-4"></div>
 			<div class = "jumbotron" style ="padding-top: 20px;">
-				<form method="post" action ="loginAction.jsp">
+				<form method="post" action ="loginAction.jsp"> 
 					<!-- post 정보를 숨기면서 보내는 매소드, 로그인액션 페이지로 로그인 정보를 보내주겠다는 뜻 -->
 					
 					<h3 style="text-align: center;"> 로그인 화면</h3> 
 					<!-- 가운데 정렬-->
 					
+					
 					<div class="form-group">
 						<input type="text" class="form-control" placeholder="아이디" name="userID" maxlength="20">
 						<!--정보를 넣는 input placeholder는 미입력시 보여지는 것 -->
 					</div>
+					
 					
 					<input type="password" class="form-control" placeholder="비밀번호" name="userPassword" maxlength="20">
 					</div>
@@ -75,12 +78,11 @@
 					</div>
 					
 				
-				
 		<div class="col-lg-4"></div>
 		
 
-		<script src=https://code.jguery.com/jquery-3.1.1min.js"></script>
-		<script src=js/bootstrap.js">
+		<script src="https://code.jguery.com/jquery-3.1.1min.js"></script>
+		<script src="js/bootstrap.js">
 		//js폴더 안에 부트스트랩 참조
 	</script>
 </body>

@@ -7,8 +7,6 @@
 <jsp:setProperty name = "user" property="userID" /> <!-- 로그인 페이지에서 넘겨준 USERID를 받아서 유저 한명에게 넣어줌 -->
 <jsp:setProperty name = "user" property="userPassword" /> 
 
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,7 +17,7 @@
 <body>
 	<% 
 		UserDAO userDAO = new UserDAO();
-		int result = userDAO.login(user.getUserId(), user.getUserPassword());
+		int result = userDAO.login(user.getUserID(), user.getUserPassword());
 		
 		if (result == 1 )  { //비밀번호 맞을 때
 			PrintWriter script = response.getWriter (); //하나의 스크립트 문장을 넣어줌
