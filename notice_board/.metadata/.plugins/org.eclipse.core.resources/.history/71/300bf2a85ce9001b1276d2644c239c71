@@ -12,12 +12,12 @@ public class UserDAO {
 	private PreparedStatement pstmt;
 	private ResultSet rs; 
 	
-	public UserDAO() {
+	public void userDAO() {
 		try {
-			String dbURL = "jdbc:mysql://localhost:3306/BBS?characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false" ;
+			String dbURL = "jdbc:mysql://localhost:3306/BBS" ;
 			String dbID = "root";
 			String dbPassword = "root";
-			Class.forName("com.mysql.cj.jdbc.Driver"); 
+			Class.forName("com.mysql.jdbc.Driver"); 
 			conn = DriverManager.getConnection(dbURL, dbID, dbPassword);
 			
 			System.out.println("연결성공!");
@@ -33,7 +33,6 @@ public class UserDAO {
 			pstmt = conn.prepareStatement(SQL);
 			pstmt.setString(1, userID); //해킹을 방지하기 위해 물음표에 해당하는 내용으로 유저 아이디를 넣고 실제 데이터 베이스에는 아이디 존재 여부 확인 후 가져옴
 			rs = pstmt.executeQuery();
-
 			if (rs.next()) { //다음 결과가 존재 한다면
 				if(rs.getString(1).equals(userPassword)) {
 					return 1; //로그인 성공
@@ -41,7 +40,7 @@ public class UserDAO {
 				else 
 					return 0; //비밀번호 틀림
 			}
-			
+			else 
 			return -1; //아이디가 없음
 		} catch (Exception e) {
 		e.printStackTrace();

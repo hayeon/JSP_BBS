@@ -5,7 +5,35 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2021-07-19T14:00:00Z</updated>
+  <updated>2021-07-20T14:33:00Z</updated>
+  <entry>
+    <title>This Week in Spring - July 20th, 2021</title>
+    <link rel="alternate" href="https://spring.io/blog/2021/07/20/this-week-in-spring-july-20th-2021" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2021-07-20:4501</id>
+    <updated>2021-07-20T14:33:00Z</updated>
+    <content type="html">&lt;p&gt;Aloha, my friends, from Hawai&amp;rsquo;i, where I&amp;rsquo;m currently on vacation! And, because I&amp;rsquo;m on vacation, I&amp;rsquo;ll cut to the chase: there&amp;rsquo;s a lot of great stuff to get to this week (surprise!) &lt;/p&gt;
+&lt;p&gt;But first, a friendly turtle I met the other day:&lt;/p&gt;
+&lt;img src="https://pbs.twimg.com/media/E6c-YzsVIAAN-zG?format=jpg&amp;name=medium"/&gt;
+&lt;p&gt;You&amp;rsquo;re welcome. Now then, where were we? Oh right! &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;In last week&amp;rsquo;s installment of &lt;a href="https://spring.io/blog/2021/07/15/a-bootiful-podcast-visualizing-software-architecture-with-the-c4-model-with-architect-simon-brown"&gt;&lt;em&gt;A Bootiful Podcast&lt;/em&gt;, I talk about visualizing software architecture with the C4 model with architect Simon Brown&lt;/a&gt;. Don&amp;rsquo;t miss this one!&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2021/07/14/spring-tips-some-cool-features-possible-with-spring-integration-5-5"&gt;Spring Tips: Some cool features possible with Spring Integration 5.5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Have you checked out the speakers &lt;a href="https://springone.io/2021/speakers"&gt;in this year&amp;rsquo;s SpringOne, on September 1st to 2nd, 2021&lt;/a&gt;? I&amp;rsquo;ll be there and so will many amazing others!&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2021/07/16/spring-data-2021-0-3-and-2020-0-11-released"&gt;Spring Data 2021.0.3 and 2020.0.11 released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2021/07/16/spring-data-2021-1-0-m1-released"&gt;Spring Data 2021.1.0-M1 released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2021/07/14/spring-framework-5-3-9-and-5-2-16-available-now"&gt;Spring Framework 5.3.9 and 5.2.16 available now&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I love this blog looking at &lt;a href="https://www.i-programmer.info/news/80-java/14728-spring-graphql-milestone-one.html"&gt;Spring GraphQL Milestone One&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2021/07/19/spring-security-5-6-0-m1-released"&gt;Spring Security 5.6.0-M1 released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The &lt;a href="https://spring.io/blog/2021/07/15/state-of-spring-survey-is-back"&gt;State of Spring Survey is back&lt;/a&gt; and we want to hear from you!&lt;/li&gt;
+  &lt;li&gt;I love to see this, finally, &lt;a href="https://t.co/HPUpfW3EvX?amp=1"&gt;Building applications with RabbitMQ streams&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://kubernetes.io/blog/2021/07/20/new-kubernetes-release-cadence/"&gt;Blog: Kubernetes Release Cadence Change: Here¡¯s What You Need To Know&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Spring Security 5.6.0-M1 released</title>
     <link rel="alternate" href="https://spring.io/blog/2021/07/19/spring-security-5-6-0-m1-released" />
@@ -660,23 +688,6 @@ dependencies {&#xD;
   &lt;li&gt;&lt;a href="https://spring.io/blog/2021/06/25/spring-integration-zip-2-0-0-available"&gt;Spring Integration Zip 2.0.0 Available&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href="https://twitter.com/JavaAtMicrosoft/status/1409930916386979845"&gt;Meet the team that worked with many customers to build the Azure Spring Cloud reference architecture. Deploy Spring Boot apps with confidence using enterprise best practices &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>CVE report published for Spring Security</title>
-    <link rel="alternate" href="https://spring.io/blog/2021/06/28/cve-report-published-for-spring-security" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Joe Grandja</name>
-    </author>
-    <id>tag:spring.io,2021-06-28:4481</id>
-    <updated>2021-06-28T10:00:00Z</updated>
-    <content type="html">&lt;p&gt;We have &lt;a href="https://spring.io/blog/2021/06/22/spring-security-5-5-1-5-4-7-5-3-10-and-5-2-11-released"&gt;released&lt;/a&gt; Spring Security 5.5.1, 5.4.7, 5.3.10 and 5.2.11 to address the following CVE report:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://tanzu.vmware.com/security/cve-2021-22119"&gt;CVE-2021-22119: Denial-of-Service attack with spring-security-oauth2-client&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Please review the information in the CVE report and upgrade immediately.&lt;/p&gt;
-&lt;p&gt;Spring Boot users should upgrade to &lt;a href="https://spring.io/blog/2021/06/24/spring-boot-2-5-2-is-now-available"&gt;2.5.2&lt;/a&gt; or &lt;a href="https://spring.io/blog/2021/06/24/spring-boot-2-4-8-is-now-available"&gt;2.4.8&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>

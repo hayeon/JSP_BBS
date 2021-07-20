@@ -23,22 +23,23 @@
 			PrintWriter script = response.getWriter (); //하나의 스크립트 문장을 넣어줌
 			script.println("<script> ");
 			script.println("location.href = 'main.jsp' ");
-			script.println("location.href = '</script' ");
+			script.println("</script> ");
 		}
+		
 		else if (result == 0 )  { //비밀번호 틀릴 때 
 			PrintWriter script = response.getWriter (); //하나의 스크립트 문장을 넣어줌
 			script.println("<script> ");
 			script.println("alert('비밀먼호가 틀립니다.') ");
 			script.println("history.back() "); //이전 페이지(로그인) 페이지로 돌려놓음
-			script.println("location.href = '</script' ");
+			script.println("</script> ");
 		}
 		
 		else if (result == -1 )  { //아이디가 없음
 			PrintWriter script = response.getWriter (); //하나의 스크립트 문장을 넣어줌
 			script.println("<script> ");
-			script.println("alert('존재하지 않는 아이디입니다..') ");
+			script.println("alert('존재하지 않는 아이디입니다.') ");
 			script.println("history.back() "); //이전 페이지(로그인) 페이지로 돌려놓음
-			script.println("location.href = '</script' ");
+			script.println("</script> ");
 		}
 		
 		else if (result == -2 )  { //데이터베이스 오류
@@ -46,8 +47,8 @@
 			script.println("<script> ");
 			script.println("alert('DB오류가 발생하였습니다.') ");
 			script.println("history.back() "); //이전 페이지(로그인) 페이지로 돌려놓음
-			script.println("location.href = '</script' ");
-		}
+			script.println("</script> ");
+			System.out.println("다됨");}
 	%>
 	
 </body>

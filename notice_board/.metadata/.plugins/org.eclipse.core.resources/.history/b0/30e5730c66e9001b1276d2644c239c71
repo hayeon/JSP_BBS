@@ -18,6 +18,7 @@
 	<% 
 		UserDAO userDAO = new UserDAO();
 		int result = userDAO.login(user.getUserID(), user.getUserPassword());
+		System.out.println("시작점은 됨");
 		
 		if (result == 1 )  { //비밀번호 맞을 때
 			PrintWriter script = response.getWriter (); //하나의 스크립트 문장을 넣어줌
@@ -37,7 +38,7 @@
 		else if (result == -1 )  { //아이디가 없음
 			PrintWriter script = response.getWriter (); //하나의 스크립트 문장을 넣어줌
 			script.println("<script> ");
-			script.println("alert('존재하지 않는 아이디입니다.') ");
+			script.println("alert('존재하지 않는 아이디입니다..') ");
 			script.println("history.back() "); //이전 페이지(로그인) 페이지로 돌려놓음
 			script.println("</script> ");
 		}
