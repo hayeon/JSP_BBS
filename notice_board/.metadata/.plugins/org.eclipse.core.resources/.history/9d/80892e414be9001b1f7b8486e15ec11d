@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ page import = "user.UserDAO" %>
+<%@ page import = "java.io.PrintWriter" %> <!-- JS 작성을 위해 필요함 -->
+<% request.setCharacterEncoding("UTF-8"); %>
+<jsp:useBean id = "user" class ="user.User" scope = "page" />
+<jsp:setProperty name = "user" property="userID" /> <!-- 로그인 페이지에서 넘겨준 USERID를 받아서 유저 한명에게 넣어줌 -->
+<jsp:setProperty name = "user" property="userPassword" /> 
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset= UTF-8">
+
+<title>JSP 웹 사이트</title>
+</head>
+<body>
+	<% 
+		UserDAO userDao = new UserDAO();
+		int result = userDAO.login(user.getUserId(), user.getUserPassword());
+		if (result == 1 )  { 
+			PrintWriter script = response.getWriter (); //하나의 스크립트 문장을 넣어줌
+			
+			script.println("location.href = 'main.jsp' ");
+		}
+	%>
+	
+</body>
+</html>

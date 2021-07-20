@@ -5,7 +5,40 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2021-07-16T15:00:00Z</updated>
+  <updated>2021-07-19T14:00:00Z</updated>
+  <entry>
+    <title>Spring Security 5.6.0-M1 released</title>
+    <link rel="alternate" href="https://spring.io/blog/2021/07/19/spring-security-5-6-0-m1-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Eleftheria Stein-Kousathana</name>
+    </author>
+    <id>tag:spring.io,2021-07-16:4498</id>
+    <updated>2021-07-19T14:00:00Z</updated>
+    <content type="html">&lt;div class="paragraph"&gt;
+&lt;p&gt;On behalf of the community, I¡¯m pleased to announce the release of Spring Security 5.6.0-M1!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;In addition to dependency upgrades, bug fixes, and minor enhancements, the milestone contains a few noteworthy changes:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;An &lt;code&gt;AuthorizationManager&lt;/code&gt; for method security&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Support for any data type in Access Token Response&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A separate repository for Spring Security samples&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;You can find the complete details in the &lt;a href="https://github.com/spring-projects/spring-security/releases/tag/5.6.0-M1"&gt;release notes&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Spring Data 2021.0.3 and 2020.0.11 released</title>
     <link rel="alternate" href="https://spring.io/blog/2021/07/16/spring-data-2021-0-3-and-2020-0-11-released" />
@@ -500,7 +533,7 @@ dependencies {&#xD;
     <id>tag:spring.io,2021-07-06:4487</id>
     <updated>2021-07-06T16:55:00Z</updated>
     <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Guest Author&lt;/strong&gt;: &lt;a href="https://twitter.com/andimarek"&gt;Andy Marek&lt;/a&gt;, GraphQL Java founder&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Guest Author&lt;/strong&gt;: &lt;a href="https://twitter.com/andimarek"&gt;Andi Marek&lt;/a&gt;, GraphQL Java founder&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;I am very happy to announce the creation of the &lt;a href="https://github.com/spring-projects/spring-graphql"&gt;Spring GraphQL&lt;/a&gt; project and the availability of an initial milestone towards a 1.0 release. The project integrates &lt;a href="https://www.graphql-java.com/"&gt;GraphQL Java&lt;/a&gt; and Spring and was developed in collaboration between both teams.&lt;/p&gt;
 &lt;p&gt;Today is GraphQL Java&amp;rsquo;s 6th birthday! One fundamental decision I made from the start was to leave any HTTP and IO aspects as a separate concern. GraphQL Java has always been &amp;ldquo;just&amp;rdquo; an engine to execute GraphQL requests. The decision has paid off but the obvious downside is the need to create your own HTTP adapter for real world usage.&lt;/p&gt;
@@ -644,36 +677,6 @@ dependencies {&#xD;
 &lt;/ul&gt;
 &lt;p&gt;Please review the information in the CVE report and upgrade immediately.&lt;/p&gt;
 &lt;p&gt;Spring Boot users should upgrade to &lt;a href="https://spring.io/blog/2021/06/24/spring-boot-2-5-2-is-now-available"&gt;2.5.2&lt;/a&gt; or &lt;a href="https://spring.io/blog/2021/06/24/spring-boot-2-4-8-is-now-available"&gt;2.4.8&lt;/a&gt;.&lt;/p&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Integration Zip 2.0.0 Available</title>
-    <link rel="alternate" href="https://spring.io/blog/2021/06/25/spring-integration-zip-2-0-0-available" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Artem Bilan</name>
-    </author>
-    <id>tag:spring.io,2021-06-25:4479</id>
-    <updated>2021-06-25T18:55:28Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;Dear Spring community,&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;On behalf of the team and everyone who contributed, it is my pleasure to announce &lt;code&gt;2.0.0&lt;/code&gt; version for Spring Integration Zip extension.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;This version is fully based on recently released &lt;a href="https://spring.io/blog/2021/05/19/spring-integration-5-5-goes-ga"&gt;Spring Integration &lt;code&gt;5.5.1&lt;/code&gt;&lt;/a&gt; has upgraded other dependencies and  all the tests have been migrated to JUnit 5. The previously released &lt;a href="https://spring.io/blog/2021/03/01/spring-integration-zip-1-0-4-cve-2021-22114"&gt;released version &lt;code&gt;1.0.4&lt;/code&gt;&lt;/a&gt; of &lt;code&gt;spring-integration-zip&lt;/code&gt; is not compatible with Spring Integration 5th generation.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Thank you everyone who contributed!&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Cheers,&amp;#160;&lt;br&gt;
-Artem&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-integration-extensions"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-integration-extensions/issues"&gt;GitHub Issues&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-integration/blob/master/CONTRIBUTING.adoc"&gt;Contributing&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-integration"&gt;Help&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-integration"&gt;Chat&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>

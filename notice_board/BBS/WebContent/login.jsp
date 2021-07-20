@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset= UTF-8">
 <meta name="viewport" content="width=device.width" , initial-scale="1">
 <!--부트스트랩은 사이즈가 디바이스마다 깔쌈하게 크기가 변경되게 도와줌  -->
 <link rel="stylesheet" href="css/bootstrap.css">
@@ -18,7 +18,7 @@
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed"
 				data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-				aria_expanded="false">
+				 aria-expanded="false">
 				<span class="icon-bar"></span>
 				<!--아이콘 바에 작대기 그리기 4개 넣었으니 4줄-->
 				<span class="icon-bar"></span> <span class="icon-bar"></span> <span
