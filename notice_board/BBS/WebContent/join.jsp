@@ -44,9 +44,8 @@
 					data-toggle="dropdown" role="buttton" aria-haspopup="true"
 					aria-expanded="false">접속하기 <span class="caret"></span></a>
 					<ul class="dropdowon-menu">
-						<li class="active"><a href="login.jsp">로그인</a></li>
-						<!-- 액티브는 단 한개의 홈페이지에만 선택된 홈페이지 의미 -->
-						<li><a href="login.jsp"></a>로그인</li>
+						<li><a href="login.jsp">로그인</a></li>
+						<li><a href="main.jsp"></a>메인</li>
 					</ul></li>
 			</ul>
 		</div>

@@ -92,10 +92,8 @@
 
 	<script
 		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	">
-	</script>
-	<script src="js/bootstrap.js">
-		//js폴더 안에 부트스트랩 참조
-	</script>
+
+	<script src="js/bootstrap.js"> </script>
+		
 </body>
 </html>

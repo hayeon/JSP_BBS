@@ -15,17 +15,30 @@
 <title>JSP 웹사이트</title>
 </head>
 <body>
-
 	<%
+	
+	String userID = null;
+	if (session.getAttribute("userID") != null ) {
+		userID = (String) session.getAttribute("userID") ;
+	}
+	if (userID != null ) { 
+		 PrintWriter script = response.getWriter();
+		   script.println("<script>");
+		   script.println("alert('이미 로그인이 되어있습니다.')");
+		   script.println("location.href = 'main.jsp'");
+		   script.println("</script>");  
+	}
   UserDAO userDAO = new UserDAO();
   int result = userDAO.login(user.getUserID(), user.getUserPassword());
-  if(result ==1){
+  if(result ==1){ //회원가입 성공
+   session.setAttribute("userID", user.getUserID());
    PrintWriter script = response.getWriter();
    script.println("<script>");
    script.println("location.href = 'main.jsp'");
    script.println("</script>");  
   }
   if(result ==0){
+   
    PrintWriter script = response.getWriter();
    script.println("<script>");
    script.println("alert('비밀번호가 틀립니다')");
