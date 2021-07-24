@@ -12,7 +12,7 @@ public class UserDAO {
 	private PreparedStatement pstmt;
 	private ResultSet rs; 
 	
-	public UserDAO() { //데베에 접근해서 데이터를 가져오는 역할
+	public UserDAO() {
 		try {
 			String dbURL = "jdbc:mysql://localhost:3306/BBS?serverTimezone=Asia/Seoul" ;
 			 String dbID = "root";
@@ -46,21 +46,6 @@ public class UserDAO {
 			  }
 			  return -2; // 데이터 베이스 오류
 
-			 }
-			 public int join (User user) {
-				 String SQL = "INSERT INTO USER VALUES (?,?,?,?,?)";
-				 try {
-					 pstmt = conn.prepareStatement(SQL);
-					 pstmt.setString(1, user.getUserID());
-					 pstmt.setString(2, user.getUserPassword());
-					 pstmt.setString(3, user.getUserName());
-					 pstmt.setString(4, user.getUserGender());
-					 pstmt.setString(5, user.getUserEmail());
-					 return pstmt.executeUpdate(); //statement 결과
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-				 return -1; //오류 발생
 			 }
 			}
 
