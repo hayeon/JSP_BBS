@@ -1,0 +1,28 @@
+package bbs;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+public class BbsDAO {
+		private Connection conn;
+		private PreparedStatement pstmt;
+		private ResultSet rs; 
+		
+		public BbsDAO() { //데베에 접근해서 데이터를 가져오는 역할
+			try {
+				String dbURL = "jdbc:mysql://localhost:3306/BBS?serverTimezone=Asia/Seoul" ;
+				 String dbID = "root";
+				   String dbPassword = "root";
+				   Class.forName("com.mysql.jdbc.Driver");
+				   conn = DriverManager.getConnection(dbURL, dbID, dbPassword);
+				   System.out.println("데베연결!");
+
+				  } catch (Exception e) {
+				   e.printStackTrace();
+				   System.out.println("연결실패 ㅠ");
+				  }
+				 }
+
+}

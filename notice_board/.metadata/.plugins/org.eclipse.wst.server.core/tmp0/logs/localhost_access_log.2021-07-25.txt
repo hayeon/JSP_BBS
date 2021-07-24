@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [25/Jul/2021:00:12:02 +0900] "GET /BBS/write.jsp HTTP/1.1" 200 2947
+0:0:0:0:0:0:0:1 - - [25/Jul/2021:00:12:02 +0900] "GET /BBS/css/bootstrap.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Jul/2021:00:12:02 +0900] "GET /BBS/js/bootstrap.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Jul/2021:00:14:48 +0900] "GET /BBS/write.jsp HTTP/1.1" 200 2947
+0:0:0:0:0:0:0:1 - - [25/Jul/2021:00:14:48 +0900] "GET /BBS/css/bootstrap.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Jul/2021:00:14:49 +0900] "GET /BBS/js/bootstrap.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Jul/2021:00:37:31 +0900] "GET /BBS/write.jsp HTTP/1.1" 200 3005
+0:0:0:0:0:0:0:1 - - [25/Jul/2021:00:37:31 +0900] "GET /BBS/css/bootstrap.css HTTP/1.1" 200 141414
+0:0:0:0:0:0:0:1 - - [25/Jul/2021:00:37:31 +0900] "GET /BBS/js/bootstrap.js HTTP/1.1" 200 66732
+0:0:0:0:0:0:0:1 - - [25/Jul/2021:00:37:40 +0900] "POST /BBS/writeAction.jsp HTTP/1.1" 500 5093
+0:0:0:0:0:0:0:1 - - [25/Jul/2021:00:53:12 +0900] "POST /BBS/writeAction.jsp HTTP/1.1" 500 3486
